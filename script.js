@@ -1,6 +1,9 @@
 function getFormvalue() {
     //Write your code here
-	let fName = document.querySelector('input[name="fname"]');
-	let lName = document.getElementByTagname('input[name="lname"]');
-	alert(console.log(fName, lName));
+	let x = document.getElementById("form1");
+	for(let i=0; i<x.length; i++){
+		if(x.elements[i].value != "Submit"){
+			console.log(x.elements[i].value);
+		}
+	}
 }
