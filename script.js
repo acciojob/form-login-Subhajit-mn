@@ -1,6 +1,6 @@
 function getFormvalue() {
     //Write your code here
-	let fName = document.getElementByname("fname");
-	let lName = document.getElementByname("lname");
+	let fName = document.getElementByTagName("fname");
+	let lName = document.getElementByTagname("lname");
 	alert(console.log(fName, lName));
 }
